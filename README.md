@@ -3,11 +3,6 @@ Systematic Multi-Asset Tactical Allocation strategy in Python. Features risk-adj
 
 This repository implements a Regime-Adaptive Tactical Asset Allocation (TAA) framework. The strategy utilizes risk-adjusted momentum and a systematic "Crisis-Alpha" rotation engine to outperform the S&P 500 while significantly reducing tail risk during market shocks.
 
-Metric,             Tactical Strategy,     S&P 500 (SPY)
-Annualized Return,       18.27%,               ~12.5%
-Sharpe Ratio,             1.07,                 0.79
-Max Drawdown,            -23.88%,             -33.72%
-
 Methodology
 1. Signal Logic (Momentum & Mean Reversion)
 The core alpha is derived from a hybrid signal:
